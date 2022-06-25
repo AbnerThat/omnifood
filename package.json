@@ -1,0 +1,16 @@
+{
+  "name": "07-omnifood-desktop",
+  "version": "1.0.0",
+  "description": "",
+  "master": "./index.html",
+  "scripts": {
+    "build": "parcel build index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/packager-raw-url": "^2.6.2",
+    "@parcel/transformer-webmanifest": "^2.6.2",
+    "parcel": "^2.6.2"
+  }
+}
