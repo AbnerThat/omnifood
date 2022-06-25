@@ -15,7 +15,7 @@ const controlGoToSection = (e) => {
   if (!link || link === "#" || !link?.startsWith("#")) return;
   e.preventDefault();
   document.querySelector(link).scrollIntoView({ behavior: "smooth" });
-  controlToggleBtn();
+  header.classList.remove("nav-open");
 };
 
 body.addEventListener("click", controlGoToSection);
